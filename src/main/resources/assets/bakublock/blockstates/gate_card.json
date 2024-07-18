@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "bakublock:block/gate_card"
+    },
+    "facing=east": {
+      "model": "bakublock:block/gate_card",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "bakublock:block/gate_card",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "bakublock:block/gate_card",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+	"texture_size": [128, 128],
+	"parent": "bakublock:block/gate_card",
+	"textures": {
+		"0": "bakublock:block/textureattributes",
+		"1": "bakublock:block/basalt",
+		"particle": "textureattributes"
+	},
+	"elements": [
+		{
+			"from": [4.9, 0, 4],
+			"to": [10.15, 0.25, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4.9, 0, 2]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"up": {"uv": [2.54688, 1.70313, 13.4375, 13.8125], "texture": "#0"},
+				"down": {"uv": [-9.95312, -2.84375, 16, 16], "texture": "#1"}
+			}
+		}
+	]
+}
